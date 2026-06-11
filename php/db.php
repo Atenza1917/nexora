@@ -1,8 +1,8 @@
 <?php
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'nexora_db');
-define('DB_USER', 'root');       // XAMPP default
-define('DB_PASS', '');           // XAMPP default (blank)
+define('DB_USER', 'root');      
+define('DB_PASS', '');           
 
 try {
     $pdo = new PDO(
